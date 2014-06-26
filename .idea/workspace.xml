@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="96e01794-ed94-4a75-ad53-c02482ff2512" name="Default" comment="">
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.js" afterPath="$PROJECT_DIR$/app.js" />
     </list>
     <ignored path="githubio_test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -187,7 +185,11 @@
       <created>1403793449761</created>
       <updated>1403793449761</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="nginclude">
+      <created>1403793514088</created>
+      <updated>1403793514088</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
