@@ -1,27 +1,30 @@
 <!doctype html>
 <html id="ng-app" ng-app="Main">
-  <head>
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="google-site-verification" content="5JNYL0i64sQiT3IdI4_4m1jj5fvJDmYqT1OUBCq0ag4" />
-    <meta name="msvalidate.01" content="7513D3E65ADB30AFBA739D432FF81943" />
+    <meta name="google-site-verification" content="5JNYL0i64sQiT3IdI4_4m1jj5fvJDmYqT1OUBCq0ag4"/>
+    <meta name="msvalidate.01" content="7513D3E65ADB30AFBA739D432FF81943"/>
+
+    <base href="/angulartest/" />
+    <!-- base href="/githubio_test/"/ -->
     <title>Silenamenti GmbH Firmenprofil</title>
 
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.js"></script>
-    <script src="app.js" ></script>
-  </head>
-  <body ng-controller="MainController as main">
-    <h1>Silenamenti GmbH Testseite</h1>
-    <nav>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/about">Über uns</a></li>
-            <li><a href="/where">Anschrift</a></li>
-        </ul>
-    </nav>
+    <script src="./app.js"></script>
+</head>
+<body ng-controller="MainController as main">
+<h1>Silenamenti GmbH Testseite</h1>
+<nav>
+    <ul>
+        <li><a href="./">Home</a></li>
+        <li><a href="./about">Über uns</a></li>
+        <li><a href="./where">Anschrift</a></li>
+    </ul>
+</nav>
 
-    <ng-view />
+<ng-view/>
 
-  </body>
+</body>
 </html>
