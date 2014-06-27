@@ -2,6 +2,7 @@
     var module = angular.module('Main', ['ngRoute']);
     module.config(['$routeProvider', function ($routeProvider) {
         $routeProvider
+            .html5mode(true)
             .when('/', {templateUrl: 'partials/home.html'})
             .when('/about', {templateUrl: 'partials/imprint.html'})
             .when('/where', {templateUrl: 'partials/where.html'})
