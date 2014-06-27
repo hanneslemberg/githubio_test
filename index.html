@@ -8,11 +8,20 @@
     <title>Angular Testpage</title>
 
     <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.18/angular-route.js"></script>
     <script src="app.js" ></script>
   </head>
   <body ng-controller="MainController as main">
-    <h1>Angular Testpage with Frontend Rendering and Navigation</h1>
-    <p>{{ main.text }}</p>
-    <ng-include src="'partials/ngincludeexample.html'" />
+    <h1>Silenamenti GmbH Testseite</h1>
+    <nav>
+        <ul>
+            <li><a href="#/">Home</a></li>
+            <li><a href="#/about">Über uns</a></li>
+            <li><a href="#/where">Anschrift</a></li>
+        </ul>
+    </nav>
+
+    <ng-view />
+
   </body>
 </html>
